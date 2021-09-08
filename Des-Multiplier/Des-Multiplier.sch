@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Switch:SW_DIP_x04 SW?
+L Des-Multiplier-rescue:SW_DIP_x04-Switch SW?
 U 1 1 614201C2
 P 2000 3150
 F 0 "SW?" V 1954 3480 50  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "~" H 2000 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_DIP_x04 SW?
+L Des-Multiplier-rescue:SW_DIP_x04-Switch SW?
 U 1 1 614238DB
 P 3100 3150
 F 0 "SW?" V 3054 3480 50  0000 L CNN
@@ -36,7 +36,7 @@ F 3 "~" H 3100 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 61423A87
 P 1900 3600
 F 0 "R?" H 1850 3650 50  0000 L CNN
@@ -47,7 +47,7 @@ F 3 "~" H 1900 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 6142618E
 P 2000 3600
 F 0 "R?" H 1950 3650 50  0000 L CNN
@@ -58,7 +58,7 @@ F 3 "~" H 2000 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 6142643C
 P 2100 3600
 F 0 "R?" H 2050 3650 50  0000 L CNN
@@ -69,7 +69,7 @@ F 3 "~" H 2100 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 614265FF
 P 2200 3600
 F 0 "R?" H 2150 3650 50  0000 L CNN
@@ -80,7 +80,7 @@ F 3 "~" H 2200 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 61427F05
 P 3000 3600
 F 0 "R?" H 2950 3650 50  0000 L CNN
@@ -91,7 +91,7 @@ F 3 "~" H 3000 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 61427F0B
 P 3100 3600
 F 0 "R?" H 3050 3650 50  0000 L CNN
@@ -102,7 +102,7 @@ F 3 "~" H 3100 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 61427F11
 P 3200 3600
 F 0 "R?" H 3150 3650 50  0000 L CNN
@@ -113,7 +113,7 @@ F 3 "~" H 3200 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 61427F17
 P 3300 3600
 F 0 "R?" H 3250 3650 50  0000 L CNN
@@ -191,7 +191,7 @@ Connection ~ 2600 2850
 Wire Wire Line
 	2600 2850 3000 2850
 $Comp
-L 74xx:74LS194 U?
+L Des-Multiplier-rescue:74LS194-74xx U?
 U 1 1 61438C85
 P 6800 4200
 F 0 "U?" H 6350 5100 50  0000 C CNN
@@ -202,7 +202,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS194" H 6800 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS194 U?
+L Des-Multiplier-rescue:74LS194-74xx U?
 U 1 1 6143B446
 P 6800 6500
 F 0 "U?" H 6400 7450 50  0000 C CNN
@@ -246,7 +246,7 @@ B2
 Text Label 6300 3900 2    50   ~ 0
 B3
 $Comp
-L 74xx:74LS283 U?
+L Des-Multiplier-rescue:74LS283-74xx U?
 U 1 1 61463F93
 P 9050 2650
 F 0 "U?" H 8600 3500 50  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 9050 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS283 U?
+L Des-Multiplier-rescue:74LS283-74xx U?
 U 1 1 61466D99
 P 9050 4650
 F 0 "U?" H 8700 5500 50  0000 C CNN
@@ -531,7 +531,7 @@ Text Label 8550 4350 2    50   ~ 0
 Acc7
 NoConn ~ 9550 4650
 $Comp
-L 74xx:74LS244 U?
+L Des-Multiplier-rescue:74LS244-74xx U?
 U 1 1 61502259
 P 12300 3600
 F 0 "U?" H 11900 4400 50  0000 C CNN
@@ -558,7 +558,7 @@ Acc6
 Text Label 11800 3800 2    50   ~ 0
 Acc7
 $Comp
-L Device:LED D?
+L Des-Multiplier-rescue:LED-Device D?
 U 1 1 61511F7B
 P 12950 3100
 F 0 "D?" H 13050 3100 50  0000 C CNN
@@ -569,7 +569,7 @@ F 3 "~" H 12950 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 61516ECD
 P 13250 3100
 F 0 "R?" V 13250 3000 50  0000 C CNN
@@ -580,7 +580,7 @@ F 3 "~" H 13250 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D?
+L Des-Multiplier-rescue:LED-Device D?
 U 1 1 61527472
 P 12950 3200
 F 0 "D?" H 13050 3200 50  0000 C CNN
@@ -591,7 +591,7 @@ F 3 "~" H 12950 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 61527478
 P 13250 3200
 F 0 "R?" V 13250 3100 50  0000 C CNN
@@ -602,7 +602,7 @@ F 3 "~" H 13250 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D?
+L Des-Multiplier-rescue:LED-Device D?
 U 1 1 61528687
 P 12950 3300
 F 0 "D?" H 13050 3300 50  0000 C CNN
@@ -613,7 +613,7 @@ F 3 "~" H 12950 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 6152868D
 P 13250 3300
 F 0 "R?" V 13250 3200 50  0000 C CNN
@@ -624,7 +624,7 @@ F 3 "~" H 13250 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D?
+L Des-Multiplier-rescue:LED-Device D?
 U 1 1 615292B4
 P 12950 3400
 F 0 "D?" H 13050 3400 50  0000 C CNN
@@ -635,7 +635,7 @@ F 3 "~" H 12950 3400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 615292BA
 P 13250 3400
 F 0 "R?" V 13250 3300 50  0000 C CNN
@@ -646,7 +646,7 @@ F 3 "~" H 13250 3400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D?
+L Des-Multiplier-rescue:LED-Device D?
 U 1 1 61529FDF
 P 12950 3500
 F 0 "D?" H 13050 3500 50  0000 C CNN
@@ -657,7 +657,7 @@ F 3 "~" H 12950 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 61529FE5
 P 13250 3500
 F 0 "R?" V 13250 3400 50  0000 C CNN
@@ -668,7 +668,7 @@ F 3 "~" H 13250 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D?
+L Des-Multiplier-rescue:LED-Device D?
 U 1 1 6152AE26
 P 12950 3600
 F 0 "D?" H 13050 3600 50  0000 C CNN
@@ -679,7 +679,7 @@ F 3 "~" H 12950 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 6152AE2C
 P 13250 3600
 F 0 "R?" V 13250 3500 50  0000 C CNN
@@ -690,7 +690,7 @@ F 3 "~" H 13250 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D?
+L Des-Multiplier-rescue:LED-Device D?
 U 1 1 6152BB09
 P 12950 3700
 F 0 "D?" H 13050 3700 50  0000 C CNN
@@ -701,7 +701,7 @@ F 3 "~" H 12950 3700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 6152BB0F
 P 13250 3700
 F 0 "R?" V 13250 3600 50  0000 C CNN
@@ -712,7 +712,7 @@ F 3 "~" H 13250 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D?
+L Des-Multiplier-rescue:LED-Device D?
 U 1 1 6152CA78
 P 12950 3800
 F 0 "D?" H 13050 3800 50  0000 C CNN
@@ -723,7 +723,7 @@ F 3 "~" H 12950 3800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Des-Multiplier-rescue:R-Device R?
 U 1 1 6152CA7E
 P 13250 3800
 F 0 "R?" V 13250 3700 50  0000 C CNN
@@ -871,7 +871,7 @@ Wire Wire Line
 Connection ~ 6800 3300
 Connection ~ 6800 1000
 $Comp
-L 74xx:74LS194 U?
+L Des-Multiplier-rescue:74LS194-74xx U?
 U 1 1 614328BF
 P 6800 1900
 F 0 "U?" H 6300 2850 50  0000 C CNN
@@ -910,7 +910,7 @@ Wire Wire Line
 Text Label 6050 6800 2    50   ~ 0
 ~Bshift~\Load
 $Comp
-L 74xx:74LS273 U?
+L Des-Multiplier-rescue:74LS273-74xx U?
 U 1 1 615D5391
 P 10600 3600
 F 0 "U?" H 10200 4400 50  0000 C CNN
@@ -925,7 +925,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 4000 9950 4550
 Text Label 9950 4550 1    50   ~ 0
-Astatus+CLK
+AccCLK
 Text Label 6300 2400 2    50   ~ 0
 CLK
 Text Label 6300 4700 2    50   ~ 0
@@ -935,7 +935,7 @@ CLK
 Wire Wire Line
 	10100 4100 10100 4700
 $Comp
-L Timer:NE555P U1
+L Des-Multiplier-rescue:NE555P-Timer U1
 U 1 1 60EBAC9F
 P 1800 1650
 F 0 "U1" H 1450 2100 50  0000 C CNN
@@ -960,7 +960,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 1650 1250 2150
 $Comp
-L Device:C C1
+L Des-Multiplier-rescue:C-Device C1
 U 1 1 60EC4E13
 P 1250 2300
 F 0 "C1" H 1000 2350 50  0000 L CNN
@@ -971,7 +971,7 @@ F 3 "~" H 1250 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L Des-Multiplier-rescue:C-Device C2
 U 1 1 60EC5A74
 P 1550 2300
 F 0 "C2" H 1665 2346 50  0000 L CNN
@@ -1006,7 +1006,7 @@ Connection ~ 1550 2100
 Wire Wire Line
 	1550 2100 2300 2100
 $Comp
-L Device:R R1
+L Des-Multiplier-rescue:R-Device R1
 U 1 1 60EC8EAA
 P 2550 1200
 F 0 "R1" H 2620 1246 50  0000 L CNN
@@ -1030,7 +1030,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 1650 2550 1350
 $Comp
-L Device:R R2
+L Des-Multiplier-rescue:R-Device R2
 U 1 1 60ECC1C1
 P 2450 2100
 F 0 "R2" V 2243 2100 50  0000 C CNN
@@ -1053,7 +1053,7 @@ F 3 "" H 1800 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Timer:NE555P U2
+L Des-Multiplier-rescue:NE555P-Timer U2
 U 1 1 60ED5104
 P 4050 1650
 F 0 "U2" H 3700 2100 50  0000 C CNN
@@ -1064,7 +1064,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 4900 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Des-Multiplier-rescue:R-Device R4
 U 1 1 60ED71C4
 P 4650 1250
 F 0 "R4" H 4720 1296 50  0000 L CNN
@@ -1075,7 +1075,7 @@ F 3 "~" H 4650 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Des-Multiplier-rescue:R-Device R3
 U 1 1 60ED8890
 P 3400 1300
 F 0 "R3" H 3250 1400 50  0000 L CNN
@@ -1086,7 +1086,7 @@ F 3 "~" H 3400 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L Des-Multiplier-rescue:C-Device C4
 U 1 1 60ED8E14
 P 4650 2100
 F 0 "C4" H 4765 2146 50  0000 L CNN
@@ -1097,7 +1097,7 @@ F 3 "~" H 4650 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C3
+L Des-Multiplier-rescue:C-Device C3
 U 1 1 60ED989B
 P 3400 2100
 F 0 "C3" H 3515 2146 50  0000 L CNN
@@ -1144,7 +1144,7 @@ Connection ~ 4050 2250
 Wire Wire Line
 	4050 2250 3400 2250
 $Comp
-L Switch:SW_Push SW1
+L Des-Multiplier-rescue:SW_Push-Switch SW1
 U 1 1 60EDF059
 P 3200 1450
 F 0 "SW1" H 3000 1550 50  0000 C CNN
@@ -1205,5 +1205,451 @@ CLK
 Text Label 4600 950  0    50   ~ 0
 Go
 Text Label 10100 4700 0    50   ~ 0
-Reset
+~Reset
+$Comp
+L 74xx:74LS175 U?
+U 1 1 6138B8D1
+P 2850 5000
+F 0 "U?" H 2850 5696 50  0000 C CNN
+F 1 "74LS175" H 2850 5605 50  0000 C CNN
+F 2 "" H 2850 5000 50  0000 C CNN
+F 3 "" H 2850 5000 50  0000 C CNN
+	1    2850 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4500 2550 4450
+$Comp
+L power:+5V #PWR?
+U 1 1 6139A86D
+P 2550 4450
+F 0 "#PWR?" H 2550 4300 50  0001 C CNN
+F 1 "+5V" H 2565 4623 50  0000 C CNN
+F 2 "" H 2550 4450 50  0000 C CNN
+F 3 "" H 2550 4450 50  0000 C CNN
+	1    2550 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5500 2550 5550
+$Comp
+L power:GND #PWR?
+U 1 1 613A0784
+P 2550 5550
+F 0 "#PWR?" H 2550 5300 50  0001 C CNN
+F 1 "GND" H 2555 5377 50  0000 C CNN
+F 2 "" H 2550 5550 50  0000 C CNN
+F 3 "" H 2550 5550 50  0000 C CNN
+	1    2550 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5450 1950 5450
+Wire Wire Line
+	1950 5450 1950 4450
+Wire Wire Line
+	1950 4450 2550 4450
+Connection ~ 2550 4450
+Text Label 3550 4550 0    50   ~ 0
+State0
+Text Label 3550 4750 0    50   ~ 0
+State1
+Text Label 3550 4950 0    50   ~ 0
+State2
+Text Label 2150 4750 2    50   ~ 0
+State0
+Text Label 2150 4950 2    50   ~ 0
+State1
+Text Label 2150 5350 2    50   ~ 0
+CLK
+Text Label 2150 5150 2    50   ~ 0
+Go
+Text Label 3550 5250 0    50   ~ 0
+~GoDetect
+NoConn ~ 3550 5150
+$Comp
+L 74xx:74HC00 U?
+U 1 1 613B1BB3
+P 1750 6050
+F 0 "U?" H 1750 6456 50  0000 C CNN
+F 1 "74HC00" H 1750 6365 50  0000 C CNN
+F 2 "" H 1750 6050 50  0000 C CNN
+F 3 "" H 1750 6050 50  0000 C CNN
+	1    1750 6050
+	1    0    0    -1  
+$EndComp
+Text Label 1150 5950 2    50   ~ 0
+Go
+Text Label 1150 6150 2    50   ~ 0
+~GoDetect
+Text Label 2350 6050 0    50   ~ 0
+~GoEdge
+$Comp
+L 74xx:74HC00 U?
+U 2 1 613BDC59
+P 1750 6750
+F 0 "U?" H 1750 7150 50  0000 C CNN
+F 1 "74HC00" H 1800 7050 50  0000 C CNN
+F 2 "" H 1750 6750 50  0000 C CNN
+F 3 "" H 1750 6750 50  0000 C CNN
+	2    1750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 613BF645
+P 1550 5850
+F 0 "#PWR?" H 1550 5700 50  0001 C CNN
+F 1 "+5V" H 1565 6023 50  0000 C CNN
+F 2 "" H 1550 5850 50  0000 C CNN
+F 3 "" H 1550 5850 50  0000 C CNN
+	1    1550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613C001B
+P 1550 6250
+F 0 "#PWR?" H 1550 6000 50  0001 C CNN
+F 1 "GND" H 1555 6077 50  0000 C CNN
+F 2 "" H 1550 6250 50  0000 C CNN
+F 3 "" H 1550 6250 50  0000 C CNN
+	1    1550 6250
+	1    0    0    -1  
+$EndComp
+Text Label 1150 6650 2    50   ~ 0
+~State2
+Text Label 1150 6850 2    50   ~ 0
+State0
+Text Label 2350 6750 0    50   ~ 0
+~S2~nQ0
+Text Label 3550 5050 0    50   ~ 0
+~State2
+$Comp
+L 74xx:74LS00 U?
+U 3 1 613C4BCC
+P 1750 7450
+F 0 "U?" H 1750 7856 50  0000 C CNN
+F 1 "74LS00" H 1750 7765 50  0000 C CNN
+F 2 "" H 1750 7450 50  0000 C CNN
+F 3 "" H 1750 7450 50  0000 C CNN
+	3    1750 7450
+	1    0    0    -1  
+$EndComp
+Text Label 1150 7350 2    50   ~ 0
+~GoEdge
+Text Label 1150 7550 2    50   ~ 0
+~S2~nQ0
+Text Label 2350 7450 0    50   ~ 0
+PreState0
+Text Label 2150 4550 2    50   ~ 0
+PreState0
+$Comp
+L 74xx:74LS00 U?
+U 4 1 613C9B34
+P 1750 8150
+F 0 "U?" H 1750 8556 50  0000 C CNN
+F 1 "74LS00" H 1750 8465 50  0000 C CNN
+F 2 "" H 1750 8150 50  0000 C CNN
+F 3 "" H 1750 8150 50  0000 C CNN
+	4    1750 8150
+	1    0    0    -1  
+$EndComp
+Text Label 1150 8050 2    50   ~ 0
+~State2
+Text Label 1150 8250 2    50   ~ 0
+~State1
+Text Label 2350 8150 0    50   ~ 0
+~Q2~n~Q1~
+Wire Wire Line
+	2350 8150 2350 7900
+Wire Wire Line
+	2350 7900 2650 7900
+Text Label 2650 7900 0    50   ~ 0
+Acc_Load_En
+$Comp
+L 74xx:74HC00 U?
+U 1 1 613D568A
+P 1750 8900
+F 0 "U?" H 1750 9306 50  0000 C CNN
+F 1 "74HC00" H 1750 9215 50  0000 C CNN
+F 2 "" H 1750 8900 50  0000 C CNN
+F 3 "" H 1750 8900 50  0000 C CNN
+	1    1750 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 8800 1150 9000
+$Comp
+L power:+5V #PWR?
+U 1 1 613E194D
+P 1550 8700
+F 0 "#PWR?" H 1550 8550 50  0001 C CNN
+F 1 "+5V" H 1565 8873 50  0000 C CNN
+F 2 "" H 1550 8700 50  0000 C CNN
+F 3 "" H 1550 8700 50  0000 C CNN
+	1    1550 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 613E243B
+P 1550 9100
+F 0 "#PWR?" H 1550 8850 50  0001 C CNN
+F 1 "GND" H 1555 8927 50  0000 C CNN
+F 2 "" H 1550 9100 50  0000 C CNN
+F 3 "" H 1550 9100 50  0000 C CNN
+	1    1550 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 8900 2350 8750
+Wire Wire Line
+	2350 8750 2500 8750
+Wire Wire Line
+	2350 8900 2350 9050
+Wire Wire Line
+	2350 9050 2500 9050
+Connection ~ 2350 8900
+Text Label 1150 8900 2    50   ~ 0
+~Q2~n~Q1~
+Text Label 2500 9050 0    50   ~ 0
+~Bshift~\Load
+Text Label 2500 8750 0    50   ~ 0
+~Ashift~\Load
+Text Label 1200 9550 2    50   ~ 0
+~State1
+Text Label 1200 9750 2    50   ~ 0
+State0
+Text Label 2400 9650 0    50   ~ 0
+~Q1~nQ0
+Wire Wire Line
+	2400 9650 2400 9400
+Wire Wire Line
+	2400 9400 2700 9400
+Text Label 2700 9400 0    50   ~ 0
+~ResetFlag
+$Comp
+L 74xx:74HC00 U?
+U 2 1 6143F30B
+P 1800 9650
+F 0 "U?" H 1800 10050 50  0000 C CNN
+F 1 "74HC00" H 1850 9950 50  0000 C CNN
+F 2 "" H 1800 9650 50  0000 C CNN
+F 3 "" H 1800 9650 50  0000 C CNN
+	2    1800 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U?
+U 3 1 61446668
+P 1800 10300
+F 0 "U?" H 1800 10706 50  0000 C CNN
+F 1 "74LS00" H 1800 10615 50  0000 C CNN
+F 2 "" H 1800 10300 50  0000 C CNN
+F 3 "" H 1800 10300 50  0000 C CNN
+	3    1800 10300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 10400 1200 10200
+Text Label 1200 10300 2    50   ~ 0
+~Q1~nQ0
+Text Label 2400 10300 0    50   ~ 0
+ResetFlag
+$Comp
+L 74xx:74LS00 U?
+U 4 1 6148195A
+P 1800 10950
+F 0 "U?" H 1800 11356 50  0000 C CNN
+F 1 "74LS00" H 1800 11265 50  0000 C CNN
+F 2 "" H 1800 10950 50  0000 C CNN
+F 3 "" H 1800 10950 50  0000 C CNN
+	4    1800 10950
+	1    0    0    -1  
+$EndComp
+Text Label 1200 10850 2    50   ~ 0
+ResetFlag
+Text Label 1200 11050 2    50   ~ 0
+CLK
+Text Label 2400 10950 0    50   ~ 0
+~Reset
+$Comp
+L 74xx:74HC00 U?
+U 1 1 614A1743
+P 4350 6050
+F 0 "U?" H 4350 6456 50  0000 C CNN
+F 1 "74HC00" H 4350 6365 50  0000 C CNN
+F 2 "" H 4350 6050 50  0000 C CNN
+F 3 "" H 4350 6050 50  0000 C CNN
+	1    4350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC00 U?
+U 2 1 614A1749
+P 4350 6750
+F 0 "U?" H 4350 7150 50  0000 C CNN
+F 1 "74HC00" H 4400 7050 50  0000 C CNN
+F 2 "" H 4350 6750 50  0000 C CNN
+F 3 "" H 4350 6750 50  0000 C CNN
+	2    4350 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 614A174F
+P 4150 5850
+F 0 "#PWR?" H 4150 5700 50  0001 C CNN
+F 1 "+5V" H 4165 6023 50  0000 C CNN
+F 2 "" H 4150 5850 50  0000 C CNN
+F 3 "" H 4150 5850 50  0000 C CNN
+	1    4150 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614A1755
+P 4150 6250
+F 0 "#PWR?" H 4150 6000 50  0001 C CNN
+F 1 "GND" H 4155 6077 50  0000 C CNN
+F 2 "" H 4150 6250 50  0000 C CNN
+F 3 "" H 4150 6250 50  0000 C CNN
+	1    4150 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U?
+U 3 1 614A175B
+P 4350 7450
+F 0 "U?" H 4350 7856 50  0000 C CNN
+F 1 "74LS00" H 4350 7765 50  0000 C CNN
+F 2 "" H 4350 7450 50  0000 C CNN
+F 3 "" H 4350 7450 50  0000 C CNN
+	3    4350 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U?
+U 4 1 614A1761
+P 4350 8150
+F 0 "U?" H 4350 8556 50  0000 C CNN
+F 1 "74LS00" H 4350 8465 50  0000 C CNN
+F 2 "" H 4350 8150 50  0000 C CNN
+F 3 "" H 4350 8150 50  0000 C CNN
+	4    4350 8150
+	1    0    0    -1  
+$EndComp
+Text Label 3750 5950 2    50   ~ 0
+~State2
+Text Label 3750 6150 2    50   ~ 0
+~State0
+Text Label 3550 4650 0    50   ~ 0
+~State0
+Text Label 3550 4850 0    50   ~ 0
+~State1
+Text Label 4950 6050 0    50   ~ 0
+~DSP
+$Comp
+L power:+5V #PWR?
+U 1 1 614B032D
+P 6100 7100
+F 0 "#PWR?" H 6100 6950 50  0001 C CNN
+F 1 "+5V" H 6115 7273 50  0000 C CNN
+F 2 "" H 6100 7100 50  0000 C CNN
+F 3 "" H 6100 7100 50  0000 C CNN
+	1    6100 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 7100 6100 7200
+Wire Wire Line
+	6100 7200 6300 7200
+$Comp
+L power:+5V #PWR?
+U 1 1 614B7FE6
+P 6050 4800
+F 0 "#PWR?" H 6050 4650 50  0001 C CNN
+F 1 "+5V" H 6065 4973 50  0000 C CNN
+F 2 "" H 6050 4800 50  0000 C CNN
+F 3 "" H 6050 4800 50  0000 C CNN
+	1    6050 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4800 6050 4900
+Wire Wire Line
+	6050 4900 6300 4900
+$Comp
+L power:+5V #PWR?
+U 1 1 614C12DB
+P 6050 2450
+F 0 "#PWR?" H 6050 2300 50  0001 C CNN
+F 1 "+5V" H 6065 2623 50  0000 C CNN
+F 2 "" H 6050 2450 50  0000 C CNN
+F 3 "" H 6050 2450 50  0000 C CNN
+	1    6050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 2450 6050 2600
+Wire Wire Line
+	6050 2600 6300 2600
+Text Label 3750 6650 2    50   ~ 0
+Acc_Load_En
+Text Label 3750 6850 2    50   ~ 0
+Astatus
+Text Label 4950 6750 0    50   ~ 0
+~Load~
+Text Label 3750 7350 2    50   ~ 0
+~Load
+Wire Wire Line
+	3750 7350 3750 7550
+Text Label 4950 7450 0    50   ~ 0
+Load
+Text Label 3750 8050 2    50   ~ 0
+Load
+Text Label 3750 8250 2    50   ~ 0
+CLK
+Text Label 4950 8150 0    50   ~ 0
+~AccCLK
+$Comp
+L 74xx:74HC00 U?
+U 1 1 614DC85D
+P 4350 8950
+F 0 "U?" H 4350 9356 50  0000 C CNN
+F 1 "74HC00" H 4350 9265 50  0000 C CNN
+F 2 "" H 4350 8950 50  0000 C CNN
+F 3 "" H 4350 8950 50  0000 C CNN
+	1    4350 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 614DC863
+P 4150 8750
+F 0 "#PWR?" H 4150 8600 50  0001 C CNN
+F 1 "+5V" H 4165 8923 50  0000 C CNN
+F 2 "" H 4150 8750 50  0000 C CNN
+F 3 "" H 4150 8750 50  0000 C CNN
+	1    4150 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 614DC869
+P 4150 9150
+F 0 "#PWR?" H 4150 8900 50  0001 C CNN
+F 1 "GND" H 4155 8977 50  0000 C CNN
+F 2 "" H 4150 9150 50  0000 C CNN
+F 3 "" H 4150 9150 50  0000 C CNN
+	1    4150 9150
+	1    0    0    -1  
+$EndComp
+Text Label 3750 8950 2    50   ~ 0
+~AccCLK
+Wire Wire Line
+	3750 8850 3750 9050
+Text Label 4950 8950 0    50   ~ 0
+AccCLK
 $EndSCHEMATC

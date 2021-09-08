@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name CPU_ics)(type Legacy)(uri E:/Libraries/Documents/MAX7000CPU/CPU_ics.lib)(options "")(descr ""))
   (lib (name CPU_internal_elements)(type Legacy)(uri E:/Libraries/Documents/MAX7000CPU/CPU_internal_elements.lib)(options "")(descr ""))
+  (lib (name Des-Multiplier-rescue)(type Legacy)(uri ${KIPRJMOD}/Des-Multiplier-rescue.lib)(options "")(descr ""))
 )
