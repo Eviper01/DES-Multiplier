@@ -1,0 +1,12 @@
+https://wavedrom.com/editor.html
+
+
+{signal: [
+  {name: "clk", wave: "p......"},
+  {name: "Ashift/Load", wave: "hl....."},
+  {name: "Bshift/Load", wave:"hl....."},
+  {name: "ShiftClk", wave:"pl.p..."},
+  {name:"Reset", wave:"hlh...."},
+  {name: "Latch", wave: "l..p..."},
+  {name: "Display", wave: "hl....."},
+]}
