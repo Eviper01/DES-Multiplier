@@ -1210,63 +1210,52 @@ $Comp
 L 74xx:74LS175 U?
 U 1 1 6138B8D1
 P 2850 5000
-F 0 "U?" H 2850 5696 50  0000 C CNN
-F 1 "74LS175" H 2850 5605 50  0000 C CNN
+F 0 "U?" H 2400 5750 50  0000 C CNN
+F 1 "74LS175" H 2500 5650 50  0000 C CNN
 F 2 "" H 2850 5000 50  0000 C CNN
 F 3 "" H 2850 5000 50  0000 C CNN
 	1    2850 5000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 4500 2550 4450
 $Comp
 L power:+5V #PWR?
 U 1 1 6139A86D
-P 2550 4450
-F 0 "#PWR?" H 2550 4300 50  0001 C CNN
-F 1 "+5V" H 2565 4623 50  0000 C CNN
-F 2 "" H 2550 4450 50  0000 C CNN
-F 3 "" H 2550 4450 50  0000 C CNN
-	1    2550 4450
+P 2850 4300
+F 0 "#PWR?" H 2850 4150 50  0001 C CNN
+F 1 "+5V" H 2865 4473 50  0000 C CNN
+F 2 "" H 2850 4300 50  0000 C CNN
+F 3 "" H 2850 4300 50  0000 C CNN
+	1    2850 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2550 5500 2550 5550
 $Comp
 L power:GND #PWR?
 U 1 1 613A0784
-P 2550 5550
-F 0 "#PWR?" H 2550 5300 50  0001 C CNN
-F 1 "GND" H 2555 5377 50  0000 C CNN
-F 2 "" H 2550 5550 50  0000 C CNN
-F 3 "" H 2550 5550 50  0000 C CNN
-	1    2550 5550
+P 2850 5800
+F 0 "#PWR?" H 2850 5550 50  0001 C CNN
+F 1 "GND" H 2855 5627 50  0000 C CNN
+F 2 "" H 2850 5800 50  0000 C CNN
+F 3 "" H 2850 5800 50  0000 C CNN
+	1    2850 5800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2150 5450 1950 5450
-Wire Wire Line
-	1950 5450 1950 4450
-Wire Wire Line
-	1950 4450 2550 4450
-Connection ~ 2550 4450
-Text Label 3550 4550 0    50   ~ 0
+Text Label 3350 4600 0    50   ~ 0
 State0
-Text Label 3550 4750 0    50   ~ 0
+Text Label 3350 4800 0    50   ~ 0
 State1
-Text Label 3550 4950 0    50   ~ 0
+Text Label 3350 5000 0    50   ~ 0
 State2
-Text Label 2150 4750 2    50   ~ 0
+Text Label 2350 4800 2    50   ~ 0
 State0
-Text Label 2150 4950 2    50   ~ 0
+Text Label 2350 5000 2    50   ~ 0
 State1
-Text Label 2150 5350 2    50   ~ 0
+Text Label 2350 5400 2    50   ~ 0
 CLK
-Text Label 2150 5150 2    50   ~ 0
+Text Label 2350 5200 2    50   ~ 0
 Go
-Text Label 3550 5250 0    50   ~ 0
+Text Label 3350 5300 0    50   ~ 0
 ~GoDetect
-NoConn ~ 3550 5150
+NoConn ~ 3350 5200
 $Comp
 L 74xx:74HC00 U?
 U 1 1 613B1BB3
@@ -1278,11 +1267,11 @@ F 3 "" H 1750 6050 50  0000 C CNN
 	1    1750 6050
 	1    0    0    -1  
 $EndComp
-Text Label 1150 5950 2    50   ~ 0
+Text Label 1450 5950 2    50   ~ 0
 Go
-Text Label 1150 6150 2    50   ~ 0
+Text Label 1450 6150 2    50   ~ 0
 ~GoDetect
-Text Label 2350 6050 0    50   ~ 0
+Text Label 2050 6050 0    50   ~ 0
 ~GoEdge
 $Comp
 L 74xx:74HC00 U?
@@ -1296,34 +1285,23 @@ F 3 "" H 1750 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 613BF645
-P 1550 5850
-F 0 "#PWR?" H 1550 5700 50  0001 C CNN
-F 1 "+5V" H 1565 6023 50  0000 C CNN
-F 2 "" H 1550 5850 50  0000 C CNN
-F 3 "" H 1550 5850 50  0000 C CNN
-	1    1550 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 613C001B
-P 1550 6250
-F 0 "#PWR?" H 1550 6000 50  0001 C CNN
-F 1 "GND" H 1555 6077 50  0000 C CNN
-F 2 "" H 1550 6250 50  0000 C CNN
-F 3 "" H 1550 6250 50  0000 C CNN
-	1    1550 6250
+P 2900 7600
+F 0 "#PWR?" H 2900 7350 50  0001 C CNN
+F 1 "GND" H 2905 7427 50  0000 C CNN
+F 2 "" H 2900 7600 50  0000 C CNN
+F 3 "" H 2900 7600 50  0000 C CNN
+	1    2900 7600
 	1    0    0    -1  
 $EndComp
-Text Label 1150 6650 2    50   ~ 0
+Text Label 1450 6650 2    50   ~ 0
 ~State2
-Text Label 1150 6850 2    50   ~ 0
+Text Label 1450 6850 2    50   ~ 0
 State0
-Text Label 2350 6750 0    50   ~ 0
+Text Label 2050 6750 0    50   ~ 0
 ~S2~nQ0
-Text Label 3550 5050 0    50   ~ 0
+Text Label 3350 5100 0    50   ~ 0
 ~State2
 $Comp
 L 74xx:74LS00 U?
@@ -1336,13 +1314,13 @@ F 3 "" H 1750 7450 50  0000 C CNN
 	3    1750 7450
 	1    0    0    -1  
 $EndComp
-Text Label 1150 7350 2    50   ~ 0
+Text Label 1450 7350 2    50   ~ 0
 ~GoEdge
-Text Label 1150 7550 2    50   ~ 0
+Text Label 1450 7550 2    50   ~ 0
 ~S2~nQ0
-Text Label 2350 7450 0    50   ~ 0
+Text Label 2050 7450 0    50   ~ 0
 PreState0
-Text Label 2150 4550 2    50   ~ 0
+Text Label 2350 4600 2    50   ~ 0
 PreState0
 $Comp
 L 74xx:74LS00 U?
@@ -1355,17 +1333,17 @@ F 3 "" H 1750 8150 50  0000 C CNN
 	4    1750 8150
 	1    0    0    -1  
 $EndComp
-Text Label 1150 8050 2    50   ~ 0
+Text Label 1450 8050 2    50   ~ 0
 ~State2
-Text Label 1150 8250 2    50   ~ 0
+Text Label 1450 8250 2    50   ~ 0
 ~State1
-Text Label 2350 8150 0    50   ~ 0
+Text Label 2050 8150 0    50   ~ 0
 ~Q2~n~Q1~
 Wire Wire Line
-	2350 8150 2350 7900
+	2050 8150 2050 7900
 Wire Wire Line
-	2350 7900 2650 7900
-Text Label 2650 7900 0    50   ~ 0
+	2050 7900 2350 7900
+Text Label 2350 7900 0    50   ~ 0
 Acc_Load_En
 $Comp
 L 74xx:74HC00 U?
@@ -1379,55 +1357,39 @@ F 3 "" H 1750 8900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 8800 1150 9000
-$Comp
-L power:+5V #PWR?
-U 1 1 613E194D
-P 1550 8700
-F 0 "#PWR?" H 1550 8550 50  0001 C CNN
-F 1 "+5V" H 1565 8873 50  0000 C CNN
-F 2 "" H 1550 8700 50  0000 C CNN
-F 3 "" H 1550 8700 50  0000 C CNN
-	1    1550 8700
-	1    0    0    -1  
-$EndComp
+	1450 8800 1450 9000
 $Comp
 L power:GND #PWR?
 U 1 1 613E243B
-P 1550 9100
-F 0 "#PWR?" H 1550 8850 50  0001 C CNN
-F 1 "GND" H 1555 8927 50  0000 C CNN
-F 2 "" H 1550 9100 50  0000 C CNN
-F 3 "" H 1550 9100 50  0000 C CNN
-	1    1550 9100
+P 3200 10400
+F 0 "#PWR?" H 3200 10150 50  0001 C CNN
+F 1 "GND" H 3205 10227 50  0000 C CNN
+F 2 "" H 3200 10400 50  0000 C CNN
+F 3 "" H 3200 10400 50  0000 C CNN
+	1    3200 10400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 8900 2350 8750
+	2050 8750 2200 8750
 Wire Wire Line
-	2350 8750 2500 8750
-Wire Wire Line
-	2350 8900 2350 9050
-Wire Wire Line
-	2350 9050 2500 9050
-Connection ~ 2350 8900
-Text Label 1150 8900 2    50   ~ 0
+	2050 9050 2200 9050
+Text Label 1450 8900 2    50   ~ 0
 ~Q2~n~Q1~
-Text Label 2500 9050 0    50   ~ 0
+Text Label 2200 9050 0    50   ~ 0
 ~Bshift~\Load
-Text Label 2500 8750 0    50   ~ 0
+Text Label 2200 8750 0    50   ~ 0
 ~Ashift~\Load
-Text Label 1200 9550 2    50   ~ 0
+Text Label 1500 9550 2    50   ~ 0
 ~State1
-Text Label 1200 9750 2    50   ~ 0
+Text Label 1500 9750 2    50   ~ 0
 State0
-Text Label 2400 9650 0    50   ~ 0
+Text Label 2100 9650 0    50   ~ 0
 ~Q1~nQ0
 Wire Wire Line
-	2400 9650 2400 9400
+	2100 9650 2100 9400
 Wire Wire Line
-	2400 9400 2700 9400
-Text Label 2700 9400 0    50   ~ 0
+	2100 9400 2400 9400
+Text Label 2400 9400 0    50   ~ 0
 ~ResetFlag
 $Comp
 L 74xx:74HC00 U?
@@ -1452,10 +1414,10 @@ F 3 "" H 1800 10300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1200 10400 1200 10200
-Text Label 1200 10300 2    50   ~ 0
+	1500 10400 1500 10200
+Text Label 1500 10300 2    50   ~ 0
 ~Q1~nQ0
-Text Label 2400 10300 0    50   ~ 0
+Text Label 2100 10300 0    50   ~ 0
 ResetFlag
 $Comp
 L 74xx:74LS00 U?
@@ -1468,11 +1430,11 @@ F 3 "" H 1800 10950 50  0000 C CNN
 	4    1800 10950
 	1    0    0    -1  
 $EndComp
-Text Label 1200 10850 2    50   ~ 0
+Text Label 1500 10850 2    50   ~ 0
 ResetFlag
-Text Label 1200 11050 2    50   ~ 0
+Text Label 1500 11050 2    50   ~ 0
 CLK
-Text Label 2400 10950 0    50   ~ 0
+Text Label 2100 10950 0    50   ~ 0
 ~Reset
 $Comp
 L 74xx:74HC00 U?
@@ -1497,25 +1459,14 @@ F 3 "" H 4350 6750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 614A174F
-P 4150 5850
-F 0 "#PWR?" H 4150 5700 50  0001 C CNN
-F 1 "+5V" H 4165 6023 50  0000 C CNN
-F 2 "" H 4150 5850 50  0000 C CNN
-F 3 "" H 4150 5850 50  0000 C CNN
-	1    4150 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 614A1755
-P 4150 6250
-F 0 "#PWR?" H 4150 6000 50  0001 C CNN
-F 1 "GND" H 4155 6077 50  0000 C CNN
-F 2 "" H 4150 6250 50  0000 C CNN
-F 3 "" H 4150 6250 50  0000 C CNN
-	1    4150 6250
+P 5200 7600
+F 0 "#PWR?" H 5200 7350 50  0001 C CNN
+F 1 "GND" H 5205 7427 50  0000 C CNN
+F 2 "" H 5200 7600 50  0000 C CNN
+F 3 "" H 5200 7600 50  0000 C CNN
+	1    5200 7600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1540,15 +1491,15 @@ F 3 "" H 4350 8150 50  0000 C CNN
 	4    4350 8150
 	1    0    0    -1  
 $EndComp
-Text Label 3750 5950 2    50   ~ 0
+Text Label 4050 5950 2    50   ~ 0
 ~State2
-Text Label 3750 6150 2    50   ~ 0
+Text Label 4050 6150 2    50   ~ 0
 ~State0
-Text Label 3550 4650 0    50   ~ 0
+Text Label 3350 4700 0    50   ~ 0
 ~State0
-Text Label 3550 4850 0    50   ~ 0
+Text Label 3350 4900 0    50   ~ 0
 ~State1
-Text Label 4950 6050 0    50   ~ 0
+Text Label 4650 6050 0    50   ~ 0
 ~DSP
 $Comp
 L power:+5V #PWR?
@@ -1595,23 +1546,23 @@ Wire Wire Line
 	6050 2450 6050 2600
 Wire Wire Line
 	6050 2600 6300 2600
-Text Label 3750 6650 2    50   ~ 0
+Text Label 4050 6650 2    50   ~ 0
 Acc_Load_En
-Text Label 3750 6850 2    50   ~ 0
+Text Label 4050 6850 2    50   ~ 0
 Astatus
-Text Label 4950 6750 0    50   ~ 0
+Text Label 4650 6750 0    50   ~ 0
 ~Load~
-Text Label 3750 7350 2    50   ~ 0
+Text Label 4050 7350 2    50   ~ 0
 ~Load
 Wire Wire Line
-	3750 7350 3750 7550
-Text Label 4950 7450 0    50   ~ 0
+	4050 7350 4050 7550
+Text Label 4650 7450 0    50   ~ 0
 Load
-Text Label 3750 8050 2    50   ~ 0
+Text Label 4050 8050 2    50   ~ 0
 Load
-Text Label 3750 8250 2    50   ~ 0
+Text Label 4050 8250 2    50   ~ 0
 CLK
-Text Label 4950 8150 0    50   ~ 0
+Text Label 4650 8150 0    50   ~ 0
 ~AccCLK
 $Comp
 L 74xx:74HC00 U?
@@ -1625,31 +1576,120 @@ F 3 "" H 4350 8950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
-U 1 1 614DC863
-P 4150 8750
-F 0 "#PWR?" H 4150 8600 50  0001 C CNN
-F 1 "+5V" H 4165 8923 50  0000 C CNN
-F 2 "" H 4150 8750 50  0000 C CNN
-F 3 "" H 4150 8750 50  0000 C CNN
-	1    4150 8750
+L power:GND #PWR?
+U 1 1 614DC869
+P 5150 10450
+F 0 "#PWR?" H 5150 10200 50  0001 C CNN
+F 1 "GND" H 5155 10277 50  0000 C CNN
+F 2 "" H 5150 10450 50  0000 C CNN
+F 3 "" H 5150 10450 50  0000 C CNN
+	1    5150 10450
+	1    0    0    -1  
+$EndComp
+Text Label 4050 8950 2    50   ~ 0
+~AccCLK
+Wire Wire Line
+	4050 8850 4050 9050
+Text Label 4650 8950 0    50   ~ 0
+AccCLK
+Wire Wire Line
+	2050 8750 2050 8900
+Wire Wire Line
+	2350 5500 1850 5500
+Wire Wire Line
+	1850 5500 1850 4300
+Wire Wire Line
+	1850 4300 2850 4300
+Connection ~ 2850 4300
+Connection ~ 2050 8900
+Wire Wire Line
+	2050 8900 2050 9050
+$Comp
+L 74xx:74HC00 U?
+U 5 1 6146E0F4
+P 2900 7100
+F 0 "U?" H 3130 7146 50  0000 L CNN
+F 1 "74HC00" H 3130 7055 50  0000 L CNN
+F 2 "" H 2900 7100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 2900 7100 50  0001 C CNN
+	5    2900 7100
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 614DC869
-P 4150 9150
-F 0 "#PWR?" H 4150 8900 50  0001 C CNN
-F 1 "GND" H 4155 8977 50  0000 C CNN
-F 2 "" H 4150 9150 50  0000 C CNN
-F 3 "" H 4150 9150 50  0000 C CNN
-	1    4150 9150
+L 74xx:74HC00 U?
+U 5 1 614768A4
+P 3200 9900
+F 0 "U?" H 3430 9946 50  0000 L CNN
+F 1 "74HC00" H 3430 9855 50  0000 L CNN
+F 2 "" H 3200 9900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 3200 9900 50  0001 C CNN
+	5    3200 9900
 	1    0    0    -1  
 $EndComp
-Text Label 3750 8950 2    50   ~ 0
-~AccCLK
-Wire Wire Line
-	3750 8850 3750 9050
-Text Label 4950 8950 0    50   ~ 0
-AccCLK
+$Comp
+L 74xx:74HC00 U?
+U 5 1 6147F175
+P 5150 9950
+F 0 "U?" H 5380 9996 50  0000 L CNN
+F 1 "74HC00" H 5380 9905 50  0000 L CNN
+F 2 "" H 5150 9950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5150 9950 50  0001 C CNN
+	5    5150 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC00 U?
+U 5 1 61489FED
+P 5200 7100
+F 0 "U?" H 5430 7146 50  0000 L CNN
+F 1 "74HC00" H 5430 7055 50  0000 L CNN
+F 2 "" H 5200 7100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc00" H 5200 7100 50  0001 C CNN
+	5    5200 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 614A48E9
+P 2900 6600
+F 0 "#PWR?" H 2900 6450 50  0001 C CNN
+F 1 "+5V" H 2915 6773 50  0000 C CNN
+F 2 "" H 2900 6600 50  0001 C CNN
+F 3 "" H 2900 6600 50  0001 C CNN
+	1    2900 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 614A5048
+P 5200 6600
+F 0 "#PWR?" H 5200 6450 50  0001 C CNN
+F 1 "+5V" H 5215 6773 50  0000 C CNN
+F 2 "" H 5200 6600 50  0001 C CNN
+F 3 "" H 5200 6600 50  0001 C CNN
+	1    5200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 614ABD0D
+P 3200 9400
+F 0 "#PWR?" H 3200 9250 50  0001 C CNN
+F 1 "+5V" H 3215 9573 50  0000 C CNN
+F 2 "" H 3200 9400 50  0001 C CNN
+F 3 "" H 3200 9400 50  0001 C CNN
+	1    3200 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 614B2BE7
+P 5150 9450
+F 0 "#PWR?" H 5150 9300 50  0001 C CNN
+F 1 "+5V" H 5165 9623 50  0000 C CNN
+F 2 "" H 5150 9450 50  0001 C CNN
+F 3 "" H 5150 9450 50  0001 C CNN
+	1    5150 9450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
