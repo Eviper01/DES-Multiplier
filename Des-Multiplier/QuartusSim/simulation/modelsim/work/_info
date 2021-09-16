@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2021.1 2021.02, Feb  3 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Libraries/Documents/DES-Multiplier/Des-Multiplier/QuartusSim/simulation/modelsim
+Ed_flip_flop
+Z1 w1631023094
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 8
+R0
+Z4 8E:/Libraries/Documents/DES-Multiplier/Des-Multiplier/QuartusSim/HDL Files/MultiSim.vhd
+Z5 FE:/Libraries/Documents/DES-Multiplier/Des-Multiplier/QuartusSim/HDL Files/MultiSim.vhd
+l0
+L4 1
+VcoG0C8[ffdYIZ8WA9e<ne3
+!s100 6XTlT^1S6MA8ifNQAOF8h1
+Z6 OV;C;2021.1;73
+32
+Z7 !s110 1631023499
+!i10b 1
+Z8 !s108 1631023499.000000
+Z9 !s90 -reportprogress|300|-work|work|E:/Libraries/Documents/DES-Multiplier/Des-Multiplier/QuartusSim/HDL Files/MultiSim.vhd|
+Z10 !s107 E:/Libraries/Documents/DES-Multiplier/Des-Multiplier/QuartusSim/HDL Files/MultiSim.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Adff_arch
+R2
+R3
+Z13 DEx4 work 11 d_flip_flop 0 22 coG0C8[ffdYIZ8WA9e<ne3
+!i122 8
+l10
+Z14 L9 16
+Z15 VcQ7dQf266J]U;bD1X4`g92
+Z16 !s100 YMB<<T_<oDQJcRV?Pb^gG1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Emultisim
+R1
+R2
+R3
+!i122 8
+R0
+R4
+R5
+l0
+L29 1
+V`LB[n^?CK>kBmDBVz2Pa72
+!s100 0;9^M7H;i<?;OdhZF6zW52
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Amultisim_arch
+R2
+R3
+Z17 DEx4 work 8 multisim 0 22 `LB[n^?CK>kBmDBVz2Pa72
+!i122 8
+l45
+Z18 L35 21
+V@:?9hVdzal4oN>bV<Y4a03
+!s100 i5KmDUZ_a7l:;IHK]X0Pb3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

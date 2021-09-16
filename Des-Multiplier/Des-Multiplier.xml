@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>E:\Libraries\Documents\DES-Multiplier\Des-Multiplier\Des-Multiplier.sch</source>
+    <date>15/09/2021 20:07:46</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Des-Multiplier.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW2">
+      <value>SW_DIP_x04</value>
+      <footprint>Package_DIP:DIP-8-16_W7.62mm_Socket</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="SW_DIP_x04-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614201C2</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_DIP_x04</value>
+      <footprint>Package_DIP:DIP-8-16_W7.62mm_Socket</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="SW_DIP_x04-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614238DB</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61423A87</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6142618E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6142643C</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614265FF</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61427F05</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61427F0B</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61427F11</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61427F17</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>74LS194</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS194</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="74LS194-74xx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61438C85</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>74LS194</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS194</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="74LS194-74xx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6143B446</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>74LS283</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS283</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="74LS283-74xx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61463F93</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>74LS283</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS283</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="74LS283-74xx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61466D99</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>74LS244</value>
+      <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74ls244.pdf</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="74LS244-74xx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61502259</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61511F7B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61516ECD</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61527472</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61527478</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61528687</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6152868D</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615292B4</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615292BA</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61529FDF</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61529FE5</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6152AE26</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6152AE2C</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6152BB09</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6152BB0F</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6152CA78</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6152CA7E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>74LS194</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS194</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="74LS194-74xx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614328BF</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>74LS273</value>
+      <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74LS273</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="74LS273-74xx" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D5391</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>NE555P</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="NE555P-Timer" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EBAC9F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC4E13</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC5A74</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EC8EAA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ECC1C1</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>NE555P</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="NE555P-Timer" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ED5104</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ED71C4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ED8890</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ED8E14</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="C-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60ED989B</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Des-Multiplier-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60EDF059</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>74LS175</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="74xx" part="74LS175" description="4-bit D Flip-Flop, reset"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6138B8D1</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>74HC00</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74hc00</datasheet>
+      <libsource lib="74xx" part="74HC00" description="quad 2-input NAND gate"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613D568A</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>74HC00</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74hc00</datasheet>
+      <libsource lib="74xx" part="74HC00" description="quad 2-input NAND gate"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614A1743</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>74HC00</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74hc00</datasheet>
+      <libsource lib="74xx" part="74HC00" description="quad 2-input NAND gate"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614DC85D</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>74HC00</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <libsource lib="74xx" part="74HC00" description="quad 2-input NAND gate"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6146E0F4</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10n</value>
+      <footprint>Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6194C462</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74LS00">
+      <aliases>
+        <alias>74LS37</alias>
+        <alias>7400</alias>
+        <alias>74HCT00</alias>
+        <alias>74HC00</alias>
+      </aliases>
+      <description>quad 2-input NAND gate</description>
+      <docs>http://www.ti.com/lit/gpn/sn74ls00</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SO14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="~" type="input"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="input"/>
+        <pin num="11" name="~" type="output"/>
+        <pin num="12" name="~" type="input"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74LS175">
+      <description>4-bit D Flip-Flop, reset</description>
+      <docs>http://www.ti.com/lit/gpn/sn74LS175</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS175</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~Mr" type="input"/>
+        <pin num="2" name="Q0" type="output"/>
+        <pin num="3" name="~Q0" type="output"/>
+        <pin num="4" name="D0" type="input"/>
+        <pin num="5" name="D1" type="input"/>
+        <pin num="6" name="~Q1" type="output"/>
+        <pin num="7" name="Q1" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Cp" type="input"/>
+        <pin num="10" name="Q2" type="output"/>
+        <pin num="11" name="~Q2" type="output"/>
+        <pin num="12" name="D2" type="input"/>
+        <pin num="13" name="D3" type="input"/>
+        <pin num="14" name="~Q3" type="output"/>
+        <pin num="15" name="Q3" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Des-Multiplier-rescue" part="74LS194-74xx">
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS194-74xx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Mr" type="input"/>
+        <pin num="2" name="Dsr" type="input"/>
+        <pin num="3" name="P0" type="input"/>
+        <pin num="4" name="P1" type="input"/>
+        <pin num="5" name="P2" type="input"/>
+        <pin num="6" name="P3" type="input"/>
+        <pin num="7" name="Dsl" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="S0" type="input"/>
+        <pin num="10" name="S1" type="input"/>
+        <pin num="11" name="Cp" type="input"/>
+        <pin num="12" name="Q3" type="output"/>
+        <pin num="13" name="Q2" type="output"/>
+        <pin num="14" name="Q1" type="output"/>
+        <pin num="15" name="Q0" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Des-Multiplier-rescue" part="74LS244-74xx">
+      <footprints>
+        <fp>DIP?20*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS244-74xx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OEa" type="input"/>
+        <pin num="2" name="I0a" type="input"/>
+        <pin num="3" name="O3b" type="3state"/>
+        <pin num="4" name="I1a" type="input"/>
+        <pin num="5" name="O2b" type="3state"/>
+        <pin num="6" name="I2a" type="input"/>
+        <pin num="7" name="O1b" type="3state"/>
+        <pin num="8" name="I3a" type="input"/>
+        <pin num="9" name="O0b" type="3state"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="I0b" type="input"/>
+        <pin num="12" name="O3a" type="3state"/>
+        <pin num="13" name="I1b" type="input"/>
+        <pin num="14" name="O2a" type="3state"/>
+        <pin num="15" name="I2b" type="input"/>
+        <pin num="16" name="O1a" type="3state"/>
+        <pin num="17" name="I3b" type="input"/>
+        <pin num="18" name="O0a" type="3state"/>
+        <pin num="19" name="OEb" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Des-Multiplier-rescue" part="74LS273-74xx">
+      <footprints>
+        <fp>DIP?20*</fp>
+        <fp>SO?20*</fp>
+        <fp>SOIC?20*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS273-74xx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~Mr" type="input"/>
+        <pin num="2" name="Q0" type="output"/>
+        <pin num="3" name="D0" type="input"/>
+        <pin num="4" name="D1" type="input"/>
+        <pin num="5" name="Q1" type="output"/>
+        <pin num="6" name="Q2" type="output"/>
+        <pin num="7" name="D2" type="input"/>
+        <pin num="8" name="D3" type="input"/>
+        <pin num="9" name="Q3" type="output"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="Cp" type="input"/>
+        <pin num="12" name="Q4" type="output"/>
+        <pin num="13" name="D4" type="input"/>
+        <pin num="14" name="D5" type="input"/>
+        <pin num="15" name="Q5" type="output"/>
+        <pin num="16" name="Q6" type="output"/>
+        <pin num="17" name="D6" type="input"/>
+        <pin num="18" name="D7" type="input"/>
+        <pin num="19" name="Q7" type="output"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Des-Multiplier-rescue" part="74LS283-74xx">
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS283-74xx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S2" type="output"/>
+        <pin num="2" name="B2" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="S1" type="output"/>
+        <pin num="5" name="A1" type="input"/>
+        <pin num="6" name="B1" type="input"/>
+        <pin num="7" name="C0" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="C4" type="output"/>
+        <pin num="10" name="S4" type="output"/>
+        <pin num="11" name="B4" type="input"/>
+        <pin num="12" name="A4" type="input"/>
+        <pin num="13" name="S3" type="output"/>
+        <pin num="14" name="A3" type="input"/>
+        <pin num="15" name="B3" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Des-Multiplier-rescue" part="C-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Des-Multiplier-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Des-Multiplier-rescue" part="NE555P-Timer">
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE555P-Timer</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Des-Multiplier-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Des-Multiplier-rescue" part="SW_DIP_x04-Switch">
+      <footprints>
+        <fp>SW?DIP?x4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x04-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Des-Multiplier-rescue" part="SW_Push-Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>C:\Program Files\KiCad\share\kicad\library/74xx.lib</uri>
+    </library>
+    <library logical="Des-Multiplier-rescue">
+      <uri>E:\Libraries\Documents\DES-Multiplier\Des-Multiplier/Des-Multiplier-rescue.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="2" name="/Go">
+      <node ref="U9" pin="13"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="4" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="R20" pin="1"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U11" pin="7"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U5" pin="10"/>
+      <node ref="U6" pin="10"/>
+      <node ref="U10" pin="7"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U14" pin="7"/>
+      <node ref="U13" pin="7"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U8" pin="8"/>
+      <node ref="R10" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U12" pin="8"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U12" pin="3"/>
+      <node ref="U12" pin="4"/>
+      <node ref="U12" pin="5"/>
+      <node ref="U12" pin="6"/>
+      <node ref="U4" pin="8"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="7" name="/CLK">
+      <node ref="U12" pin="11"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U11" pin="13"/>
+      <node ref="U7" pin="11"/>
+      <node ref="U13" pin="13"/>
+      <node ref="U9" pin="9"/>
+    </net>
+    <net code="8" name="/A2">
+      <node ref="U3" pin="4"/>
+      <node ref="R11" pin="1"/>
+      <node ref="SW2" pin="6"/>
+    </net>
+    <net code="9" name="/A1">
+      <node ref="U3" pin="5"/>
+      <node ref="R12" pin="1"/>
+      <node ref="SW2" pin="7"/>
+    </net>
+    <net code="10" name="/A0">
+      <node ref="R13" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="SW2" pin="8"/>
+    </net>
+    <net code="11" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="12" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="13" name="Net-(U3-Pad15)">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="14" name="/A3">
+      <node ref="U3" pin="3"/>
+      <node ref="R10" pin="1"/>
+      <node ref="SW2" pin="5"/>
+    </net>
+    <net code="15" name="/~Ashift~\Load">
+      <node ref="U3" pin="10"/>
+      <node ref="U13" pin="3"/>
+      <node ref="U7" pin="10"/>
+      <node ref="U12" pin="10"/>
+    </net>
+    <net code="16" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C1-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="18" name="/~Reset">
+      <node ref="U13" pin="11"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C2-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="20" name="+5V">
+      <node ref="R3" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW3" pin="3"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="4"/>
+      <node ref="SW3" pin="4"/>
+      <node ref="U3" pin="9"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="U7" pin="16"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U7" pin="9"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U12" pin="9"/>
+      <node ref="U12" pin="16"/>
+      <node ref="U7" pin="1"/>
+      <node ref="U8" pin="16"/>
+      <node ref="U10" pin="14"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U14" pin="14"/>
+      <node ref="U11" pin="14"/>
+      <node ref="U3" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="U6" pin="20"/>
+      <node ref="U5" pin="20"/>
+      <node ref="U13" pin="14"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U9" pin="16"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="21" name="/~Load">
+      <node ref="U11" pin="9"/>
+      <node ref="U11" pin="10"/>
+    </net>
+    <net code="22" name="/~Load~">
+      <node ref="U11" pin="6"/>
+    </net>
+    <net code="23" name="/Load">
+      <node ref="U11" pin="8"/>
+      <node ref="U11" pin="12"/>
+    </net>
+    <net code="24" name="/~AccCLK">
+      <node ref="U14" pin="2"/>
+      <node ref="U14" pin="1"/>
+      <node ref="U11" pin="11"/>
+    </net>
+    <net code="25" name="/~S2~nQ0">
+      <node ref="U10" pin="6"/>
+      <node ref="U10" pin="10"/>
+    </net>
+    <net code="26" name="/~GoEdge">
+      <node ref="U10" pin="3"/>
+      <node ref="U10" pin="9"/>
+    </net>
+    <net code="27" name="/PreState0">
+      <node ref="U10" pin="8"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="28" name="/AccCLK">
+      <node ref="U14" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="29" name="/Astatus">
+      <node ref="U3" pin="12"/>
+      <node ref="U11" pin="5"/>
+    </net>
+    <net code="30" name="Net-(U9-Pad15)">
+      <node ref="U9" pin="15"/>
+    </net>
+    <net code="31" name="/State2">
+      <node ref="U9" pin="10"/>
+    </net>
+    <net code="32" name="/~GoDetect">
+      <node ref="U9" pin="14"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="33" name="/State0">
+      <node ref="U13" pin="5"/>
+      <node ref="U10" pin="5"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="34" name="/~State1">
+      <node ref="U10" pin="13"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U13" pin="4"/>
+    </net>
+    <net code="35" name="/State1">
+      <node ref="U9" pin="12"/>
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="36" name="/ResetFlag">
+      <node ref="U13" pin="8"/>
+      <node ref="U13" pin="12"/>
+    </net>
+    <net code="37" name="/~Q1~nQ0">
+      <node ref="U13" pin="6"/>
+      <node ref="U13" pin="10"/>
+      <node ref="U13" pin="9"/>
+    </net>
+    <net code="38" name="/~State2">
+      <node ref="U11" pin="1"/>
+      <node ref="U9" pin="11"/>
+      <node ref="U10" pin="12"/>
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="39" name="/~State0">
+      <node ref="U9" pin="3"/>
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="40" name="/~DSP">
+      <node ref="U11" pin="3"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="19"/>
+    </net>
+    <net code="41" name="/Acc_Load_En">
+      <node ref="U10" pin="11"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U13" pin="2"/>
+      <node ref="U13" pin="1"/>
+    </net>
+    <net code="42" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="43" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="44" name="Net-(U4-Pad13)">
+      <node ref="U5" pin="7"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="45" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="46" name="/Bout4">
+      <node ref="U12" pin="15"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="47" name="Net-(U12-Pad7)">
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="48" name="Net-(U7-Pad7)">
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="49" name="Net-(U4-Pad9)">
+      <node ref="U8" pin="7"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="50" name="Net-(U5-Pad14)">
+      <node ref="U5" pin="14"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="51" name="Net-(U5-Pad18)">
+      <node ref="U8" pin="10"/>
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="52" name="/Bout7">
+      <node ref="U12" pin="12"/>
+      <node ref="U8" pin="11"/>
+    </net>
+    <net code="53" name="Net-(U5-Pad17)">
+      <node ref="U5" pin="17"/>
+      <node ref="U8" pin="13"/>
+    </net>
+    <net code="54" name="/Bout6">
+      <node ref="U12" pin="13"/>
+      <node ref="U8" pin="15"/>
+    </net>
+    <net code="55" name="/Bout5">
+      <node ref="U8" pin="2"/>
+      <node ref="U12" pin="14"/>
+    </net>
+    <net code="56" name="Net-(U8-Pad9)">
+      <node ref="U8" pin="9"/>
+    </net>
+    <net code="57" name="/B1">
+      <node ref="R16" pin="1"/>
+      <node ref="SW3" pin="7"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="58" name="/Bout3">
+      <node ref="U4" pin="11"/>
+      <node ref="U7" pin="12"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="59" name="/Bout2">
+      <node ref="U7" pin="13"/>
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="60" name="/Bout1">
+      <node ref="U7" pin="14"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="61" name="/Bout0">
+      <node ref="U7" pin="15"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="62" name="/B0">
+      <node ref="R17" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="SW3" pin="8"/>
+    </net>
+    <net code="63" name="/B2">
+      <node ref="SW3" pin="6"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="64" name="/B3">
+      <node ref="SW3" pin="5"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="65" name="Net-(D5-Pad2)">
+      <node ref="U6" pin="9"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="67" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="68" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="U6" pin="14"/>
+    </net>
+    <net code="69" name="Net-(D4-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="70" name="Net-(D4-Pad2)">
+      <node ref="U6" pin="12"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D5-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="72" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="74" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="75" name="Net-(D7-Pad2)">
+      <node ref="U6" pin="5"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="76" name="/Acc1">
+      <node ref="U6" pin="4"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="77" name="/Acc2">
+      <node ref="U6" pin="6"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="78" name="/Acc3">
+      <node ref="U4" pin="12"/>
+      <node ref="U6" pin="8"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="79" name="Net-(D8-Pad1)">
+      <node ref="R20" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D1-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="81" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="U6" pin="18"/>
+    </net>
+    <net code="82" name="Net-(D2-Pad2)">
+      <node ref="U6" pin="16"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="84" name="Net-(U5-Pad13)">
+      <node ref="U8" pin="4"/>
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="85" name="/Acc4">
+      <node ref="U5" pin="12"/>
+      <node ref="U8" pin="12"/>
+      <node ref="U6" pin="11"/>
+    </net>
+    <net code="86" name="/Acc5">
+      <node ref="U5" pin="15"/>
+      <node ref="U6" pin="13"/>
+      <node ref="U8" pin="14"/>
+    </net>
+    <net code="87" name="/Acc6">
+      <node ref="U5" pin="16"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="88" name="/Acc7">
+      <node ref="U5" pin="19"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U6" pin="17"/>
+    </net>
+    <net code="89" name="/Acc0">
+      <node ref="U5" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U6" pin="2"/>
+    </net>
+  </nets>
+</export>

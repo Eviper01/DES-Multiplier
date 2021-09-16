@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, E:/Libraries/Documents/DES-Multiplier/Des-Multiplier/QuartusSim/HDL Files/MultiSim.vhd
+source_file = 1, E:/Libraries/Documents/DES-Multiplier/Des-Multiplier/QuartusSim/db/MultiSim.cbx.xml
+source_file = 1, c:/program files/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/program files/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/program files/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/program files/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = MultiSim
+instance = comp, \clk~I , clk, MultiSim, 1
+instance = comp, \rst~I , rst, MultiSim, 1
+instance = comp, \F0|Q~en , F0|Q~en, MultiSim, 1
+instance = comp, \F0|Q~reg0 , F0|Q~reg0, MultiSim, 1
+instance = comp, \F2|Q~reg0 , F2|Q~reg0, MultiSim, 1
+instance = comp, \F1|Q~reg0 , F1|Q~reg0, MultiSim, 1
+instance = comp, \Q1~I , Q1, MultiSim, 1
+instance = comp, \Q2~I , Q2, MultiSim, 1
+instance = comp, \Q0~I , Q0, MultiSim, 1

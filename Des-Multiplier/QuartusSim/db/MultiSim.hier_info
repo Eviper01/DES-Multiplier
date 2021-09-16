@@ -1,0 +1,66 @@
+|MultiSim
+clk => D_flip_flop:F0.clk
+clk => D_flip_flop:F1.clk
+clk => D_flip_flop:F2.clk
+rst => D_flip_flop:F0.rst
+rst => D_flip_flop:F1.rst
+rst => D_flip_flop:F2.rst
+Q0 << D_flip_flop:F0.Q
+Q1 << D_flip_flop:F1.Q
+Q2 << D_flip_flop:F2.Q
+
+
+|MultiSim|D_flip_flop:F0
+clk => Qnot~reg0.CLK
+clk => Qnot~en.CLK
+clk => Q~reg0.CLK
+clk => Q~en.CLK
+Din => Qnot.IN0
+Din => Q~reg0.DATAIN
+rst => Qnot~reg0.PRESET
+rst => WideOr0.IN1
+rst => Q~reg0.ACLR
+rst => Q.IN0
+en => process_0.IN0
+en => Qnot.IN1
+en => Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qnot <= Qnot.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiSim|D_flip_flop:F1
+clk => Qnot~reg0.CLK
+clk => Qnot~en.CLK
+clk => Q~reg0.CLK
+clk => Q~en.CLK
+Din => Qnot.IN0
+Din => Q~reg0.DATAIN
+rst => Qnot~reg0.PRESET
+rst => WideOr0.IN1
+rst => Q~reg0.ACLR
+rst => Q.IN0
+en => process_0.IN0
+en => Qnot.IN1
+en => Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qnot <= Qnot.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiSim|D_flip_flop:F2
+clk => Qnot~reg0.CLK
+clk => Qnot~en.CLK
+clk => Q~reg0.CLK
+clk => Q~en.CLK
+Din => Qnot.IN0
+Din => Q~reg0.DATAIN
+rst => Qnot~reg0.PRESET
+rst => WideOr0.IN1
+rst => Q~reg0.ACLR
+rst => Q.IN0
+en => process_0.IN0
+en => Qnot.IN1
+en => Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+Qnot <= Qnot.DB_MAX_OUTPUT_PORT_TYPE
+
+
