@@ -811,7 +811,7 @@ Connection ~ 11800 4100
 Wire Wire Line
 	11800 4100 11800 4450
 Text Label 11650 4450 2    50   ~ 0
-~DSP
+~DSP1
 $Comp
 L power:GND #PWR0122
 U 1 1 615578A1
@@ -1888,7 +1888,7 @@ $EndComp
 Text Label 13450 7250 0    50   ~ 0
 Go
 Text Label 13450 7350 0    50   ~ 0
-~DSP
+~DSP1
 $Comp
 L Device:R J5
 U 1 1 6149B806
@@ -1901,7 +1901,7 @@ F 3 "~" H 12650 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 12650 5050 2    50   ~ 0
-~DSP
+~DSP1
 Text Label 12650 5350 3    50   ~ 0
 ~DSP
 $Comp
